@@ -1,0 +1,16 @@
+Note: There is a simple Workaround for Windows 10 USERS. If you get the Below Error...
+
+Error:-
+from .compat import binary_types
+File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 264, in <module>
+time_func = time.clock
+_________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________
+
+Then Simply comment these lines: 
+if win32 or jython:
+   time_func = time.clock
+else:
+   time_func = time.time
+__________________________________________________________________________________________________________________________________________
