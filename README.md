@@ -1,5 +1,5 @@
-Hello, I am Daniel V Richardson 
-My project Name is : Mark (COVID-19 Chatbot)
+ 
+#Mark (COVID-19 Chatbot)
 ____________________________________________________________________________
 
 STEPS TO RUN THE PROGRAM:
@@ -20,4 +20,4 @@ Note:
 3) For installation of the modules just open the terminal/cmd and locate to this directory and type : pip install -r requirement.txt. Your required libraries will be installed.
 _________________________________Thank You__________________________________
 
-# Mark-Covid-19-Chatbot
+# Leave a Star if you like my work
